@@ -8,6 +8,12 @@ to a source you actually read.**
 This repo is the **generic skeleton**. A filled-in project vault — real papers,
 real cross-references — is the worked example you build on top of it.
 
+It is a concrete, auditability-first implementation of the *LLM-maintained wiki*
+pattern Karpathy sketches in [llm-wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f):
+immutable raw sources, an LLM-maintained wiki of interlinked markdown pages, and a
+schema document that governs how the agent maintains it — here `raw/pdfs/`,
+`knowledge/`, and the `knowledge/AGENTS.md` contract, respectively.
+
 ---
 
 ## Why auditability, not "a smarter model"
