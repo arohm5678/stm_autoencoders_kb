@@ -6,6 +6,6 @@ tags:
 
 # Connections
 
-Cross-cutting links between papers, concepts, methods, claims, and debates.
+Cross-cutting links between autoencoder architectures, latent representations, physical properties, and experimental scanning tunneling microscopy (STM) results.
 
-> Populated as you ingest.
+> Populated as you ingest papers to map relationships between machine learning structures and physical properties.

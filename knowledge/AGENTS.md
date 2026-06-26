@@ -4,7 +4,7 @@ tags:
   - schema
 ---
 
-# AGENTS.md — Knowledge Base Schema for <your-topic>
+# AGENTS.md — Knowledge Base Schema for Autoencoders for STM
 
 This file is the **agent-neutral source of truth** for the schema, read protocol, and operations that govern this knowledge base.
 Any CLI agent (Claude Code, GitHub Copilot, OpenAI Codex CLI, Google Gemini CLI, Aider, etc.) MUST follow it when reading or writing inside `knowledge/`.
@@ -14,7 +14,7 @@ Agent shims at the repo root ([`../AGENTS.md`](../AGENTS.md), [`../CLAUDE.md`](.
 
 ## What This Vault Is
 
-An auditable, LLM-maintained research knowledge base for **<your-topic>** — a navigable wiki of atomic claims, papers, concepts, methods, theorems, and debates in which every substantive statement is traceable to a source read in-session.
+An auditable, LLM-maintained research knowledge base for **Autoencoders for STM** — a navigable wiki of atomic claims, papers, concepts, methods, theorems, and debates in which every substantive statement is traceable to a source read in-session.
 This is a content-free starter skeleton; populate it with your own sources via the INGEST operation below.
 
 The vault uses **standard markdown links** (not Obsidian wikilinks) so it works in any editor or viewer without plugins.

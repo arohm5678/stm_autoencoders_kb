@@ -6,6 +6,6 @@ tags:
 
 # Timeline
 
-Chronological view of the ideas and papers in the knowledge base, ordered by year.
+Chronological view of the ideas, papers, and models in the knowledge base, ordered by year. This timeline tracks the evolution of autoencoder architectures (VAEs, CAEs, DAEs) applied to Scanning Tunneling Microscopy (STM) data.
 
-> Populated as you ingest.
+> Populated as you ingest papers.

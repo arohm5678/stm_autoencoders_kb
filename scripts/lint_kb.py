@@ -24,7 +24,7 @@ from collections import defaultdict
 def extract_frontmatter(filepath):
     """Extract YAML frontmatter from a markdown file."""
     try:
-        with open(filepath, 'r') as f:
+        with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
         if content.startswith('---'):
             end = content.find('---', 3)
@@ -53,7 +53,7 @@ def find_bibtex_keys(bib_path):
     """Extract all bibtex keys from a .bib file."""
     keys = set()
     if os.path.exists(bib_path):
-        with open(bib_path, 'r') as f:
+        with open(bib_path, 'r', encoding='utf-8') as f:
             for line in f:
                 m = re.match(r'@\w+\{(\w+)', line)
                 if m:
@@ -169,7 +169,7 @@ def lint_vault(vault_root):
     manifest_path = vault / 'raw' / 'pdfs' / 'manifest.md'
     manifest_filenames = set()
     if manifest_path.exists():
-        with open(manifest_path, 'r') as f:
+        with open(manifest_path, 'r', encoding='utf-8') as f:
             manifest_content = f.read()
         # Extract filenames from manifest table rows (backtick-wrapped).
         # Manifests may list paths relative to raw/pdfs/ (e.g.
