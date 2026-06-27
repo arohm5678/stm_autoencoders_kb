@@ -1,12 +1,9 @@
+#STM Knowledge Base
+Full of my fav papers and summaries about them
+eventullay will have a socratic guide that can walk you through/quiz on material to increase understanding.
+
+
 # Auditable Research Knowledge Base — Starter
-
-A skeleton for building your **own** auditable academic knowledge base (KB) for a
-project or team. Clone it, point an AI coding agent at it, and start turning PDFs
-into a cross-referenced research wiki where **every substantive claim traces back
-to a source you actually read.**
-
-This repo is the **generic skeleton**. A filled-in project vault — real papers,
-real cross-references — is the worked example you build on top of it.
 
 It is a concrete, auditability-first implementation of the *LLM-maintained wiki*
 pattern Karpathy sketches in [llm-wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f):
