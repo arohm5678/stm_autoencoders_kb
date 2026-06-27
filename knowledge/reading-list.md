@@ -15,4 +15,4 @@ Queue of papers and sources on Autoencoders for Scanning Tunneling Microscopy (S
 *   *None currently.*
 
 ## ✅ Ingested
-*   *None currently.*
+*   [Binev (2005) — Universal Algorithms for Learning Theory Part I : Piecewise Constant Functions](papers/binev-2005-universal.md)

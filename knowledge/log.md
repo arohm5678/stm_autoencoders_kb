@@ -9,3 +9,4 @@ tags:
 Append-only record of ingestion sessions and maintenance actions, newest last.
 
 * **2026-06-26**: Initialized and scaffolded the knowledge base for the research topic: **Autoencoders for STM (Scanning Tunneling Microscopy)**. Configured `AGENTS.md` schema, taxonomies in `index.md`, and initialized navigation files.
+* **2026-06-26**: Ingested [Universal Algorithms for Learning Theory Part I : Piecewise Constant Functions](papers/binev-2005-universal.md) by Binev et al. (2005) into the `papers/` folder. Validated the PDF at `knowledge/raw/pdfs/bernstein-inequality/binev-2005-universal.pdf` and transcribed the key theorems and mathematical formulations.

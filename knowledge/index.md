@@ -29,12 +29,14 @@ Top-level map of the knowledge base for **Autoencoders in Scanning Tunneling Mic
 * **Latent Space Interpretation**: Mapping latent variables to physical parameters (e.g., work function, local DOS).
 * **Physics-Informed Regularization**: Enforcing physical constraints (e.g., tunneling current equations, symmetry) on the latent space or reconstructions.
 * **Scanning Tunneling Spectroscopy (STS) Grids**: High-dimensional datasets ($x \times y \times V$) representing local density of states.
+* **[Bernstein Inequality](concepts/bernstein-inequality.md)**: Probability bound incorporating variance, used to establish convergence bounds.
 
 ### 3. Autoencoder Architectures & Methods
 * **Convolutional Autoencoders (CAEs)**: Spatial feature extraction for topographic STM images.
 * **Variational Autoencoders (VAEs)**: Probabilistic models for latent clustering and physical parameter decoupling.
 * **Denoising Autoencoders (DAEs)**: Reconstruction models trained with synthetic or experimental noise.
 * **Physics-Informed/Physics-Guided Autoencoders (PIAEs)**: Models utilizing custom loss functions incorporating tunneling theory.
+* **[Adaptive Partitioning](methods/adaptive-partitioning.md)**: Dynamic tree-structured spatial splitting to adaptively learn function features.
 
 ---
 
