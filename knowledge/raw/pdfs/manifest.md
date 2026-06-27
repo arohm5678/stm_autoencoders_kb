@@ -7,3 +7,4 @@ Provenance record for every PDF fetched into this knowledge base. One row per fi
 | filename | source URL / DOI | fetched date |
 |----------|------------------|--------------|
 | `bernstein-inequality/binev-2005-universal.pdf` | https://www.jmlr.org/papers/volume6/binev05a/binev05a.pdf | fetched 2026-06-26 |
+| `topological-autoencoders/clemot-2025-topological.pdf` | https://arxiv.org/pdf/2502.20215 | fetched 2026-06-26 |
