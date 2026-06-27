@@ -33,6 +33,9 @@ Top-level map of the knowledge base for **Autoencoders in Scanning Tunneling Mic
 * **[Persistent Homology](concepts/persistent-homology.md)**: Multi-scale topological feature analysis (clusters, cycles) of point clouds.
 * **[Topological Autoencoders](concepts/topological-autoencoders.md)**: Regularization models to preserve homology structures during dimensionality reduction.
 * **[STM Image Simulation](concepts/stm-image-simulation.md)**: DFT-based computational generation of STM images.
+* **[Variational Autoencoders](concepts/variational-autoencoders.md)**: Probabilistic latent-variable models coupling deep networks with variational inference.
+* **[Evidence Lower Bound](concepts/evidence-lower-bound.md)**: Mathematical optimization objective for variational inference.
+* **[Normalizing Flows](concepts/normalizing-flows.md)**: Density estimation via sequences of invertible transformations.
 
 ### 3. Autoencoder Architectures & Methods
 * **Convolutional Autoencoders (CAEs)**: Spatial feature extraction for topographic STM images.
@@ -44,6 +47,8 @@ Top-level map of the knowledge base for **Autoencoders in Scanning Tunneling Mic
 * **[Cascade Distortion](methods/cascade-distortion.md)**: Isometric cycle-preserving loss constraining the global cascade skeleton.
 * **[Tersoff-Hamann Method](methods/tersoff-hamann.md)**: Classical s-wave tunneling current approximation for STM simulation.
 * **[JARVIS-STMnet](methods/jarvis-stmnet.md)**: Convolutional neural network for Bravais lattice classification from STM images.
+* **[Reparameterization Trick](methods/reparameterization-trick.md)**: Method to make stochastic nodes differentiable for backpropagation.
+* **[Inverse Autoregressive Flow](methods/inverse-autoregressive-flow.md)**: Autoregressive normalizing flow for high-dimensional spaces.
 
 ---
 
@@ -54,6 +59,8 @@ Top-level map of the knowledge base for **Autoencoders in Scanning Tunneling Mic
 
 ## 📚 Master Bibliography
 * **[Choudhary (2021)](papers/choudhary-2021-stm-db.md)**: Computational scanning tunneling microscope image database.
+* **[Kingma (2019)](papers/kingma-2019-vae-intro.md)**: An Introduction to Variational Autoencoders.
 * Refer to [Master BibTeX](references.bib) for complete citation keys.
 * Individual paper summaries are placed in the `papers/` folder.
+
 
