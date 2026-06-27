@@ -1,4 +1,4 @@
-# Reading Lost
+# Reading List
 
 Links to all paper summaries in this knowledge base:
 
@@ -7,4 +7,5 @@ Links to all paper summaries in this knowledge base:
 *   [Clémot et al. (2025) — Topological Autoencoders++: Fast and Accurate Cycle-Aware Dimensionality Reduction](knowledge/papers/clemot-2025-topological.md)
 *   [Kingma & Welling (2019) — An Introduction to Variational Autoencoders](knowledge/papers/kingma-2019-vae-intro.md)
 *   [Moor et al. (2020) — Topological Autoencoders (Stub)](knowledge/papers/moor-2020-topological.md)
+
 
