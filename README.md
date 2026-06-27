@@ -1,6 +1,8 @@
 #STM Knowledge Base
 Full of my fav papers and summaries about them
 
+To read summaries of papers go to Reading List (Lost) at bottom of repository
+
 Eventullay will have a socratic guide that can walk you through/quiz on material to increase understanding.
 
 
