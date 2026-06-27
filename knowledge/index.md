@@ -32,6 +32,7 @@ Top-level map of the knowledge base for **Autoencoders in Scanning Tunneling Mic
 * **[Bernstein Inequality](concepts/bernstein-inequality.md)**: Probability bound incorporating variance, used to establish convergence bounds.
 * **[Persistent Homology](concepts/persistent-homology.md)**: Multi-scale topological feature analysis (clusters, cycles) of point clouds.
 * **[Topological Autoencoders](concepts/topological-autoencoders.md)**: Regularization models to preserve homology structures during dimensionality reduction.
+* **[STM Image Simulation](concepts/stm-image-simulation.md)**: DFT-based computational generation of STM images.
 
 ### 3. Autoencoder Architectures & Methods
 * **Convolutional Autoencoders (CAEs)**: Spatial feature extraction for topographic STM images.
@@ -41,6 +42,8 @@ Top-level map of the knowledge base for **Autoencoders in Scanning Tunneling Mic
 * **[Adaptive Partitioning](methods/adaptive-partitioning.md)**: Dynamic tree-structured spatial splitting to adaptively learn function features.
 * **[TopoAE++](methods/topoae-plus-plus.md)**: Cycle-aware topology-preserving autoencoders with fast planar solvers.
 * **[Cascade Distortion](methods/cascade-distortion.md)**: Isometric cycle-preserving loss constraining the global cascade skeleton.
+* **[Tersoff-Hamann Method](methods/tersoff-hamann.md)**: Classical s-wave tunneling current approximation for STM simulation.
+* **[JARVIS-STMnet](methods/jarvis-stmnet.md)**: Convolutional neural network for Bravais lattice classification from STM images.
 
 ---
 
@@ -50,5 +53,7 @@ Top-level map of the knowledge base for **Autoencoders in Scanning Tunneling Mic
 ---
 
 ## 📚 Master Bibliography
+* **[Choudhary (2021)](papers/choudhary-2021-stm-db.md)**: Computational scanning tunneling microscope image database.
 * Refer to [Master BibTeX](references.bib) for complete citation keys.
 * Individual paper summaries are placed in the `papers/` folder.
+
